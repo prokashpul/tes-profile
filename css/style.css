@@ -32,7 +32,7 @@ hr{
     border-top: 1px solid #6B7280;
 }
 .container{
-    max-width:1280px;
+    max-width:1228px;
     margin:0 100px 150px;
 }
 .base-color{
@@ -41,7 +41,7 @@ hr{
 .bar{
     content: "";
     width:7.5em;
-    height:.065em;
+    height:.1em;
     background-color: var(--primary-color);
 }
 
@@ -50,7 +50,6 @@ hr{
     color: var(--white-color);
     font-size:1.125em;
     padding:.4em .8em;
-    border-radius:.3em;
     font-weight: 400;
     border: 1px solid transparent;
 }
@@ -66,10 +65,14 @@ hr{
 /* grid and flex common style */
 .d-grid{
     display:grid;
+    justify-content: center;
     place-items: center;
 }
 .g-cal-2{
     grid-template-columns: repeat(2,1fr);
+}
+.g-cal-3{
+    grid-template-columns: 1fr 2fr;
 }
 .d-flex{
     display: flex;
@@ -126,4 +129,41 @@ hr{
     border-radius: .5em;
 }
 
+/* ===========================project section============================= */
 
+.proects  h2{
+    text-align: center;
+    width:1039px;
+    font-size: 3em;
+    margin: 0 auto 150px;
+}
+.project-items{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: space-between;
+    grid-column-gap: 2em;
+}
+.project-items img{
+    width:100%;
+    height: 100%;
+}
+.project-item.d-flex{
+    flex-wrap: wrap;
+}
+.sngle-item{
+    flex-basis: 50%;
+    padding:1.25em;
+}
+.sngle-item .btn{
+    background-color: transparent;
+    color:var(--primary-color);
+    border-bottom: 1px solid var(--primary-color);
+    border-radius: 0;
+    padding-left: 0;
+    transition: all 1s ease;
+}
+.sngle-item .btn:hover{
+    background-color:var(--primary-color);
+    color: var(--white-color);
+    padding-left: .8em;
+}
