@@ -197,7 +197,7 @@ hr{
 .gallary-items{
     display:grid;
     grid-template-columns: repeat(autofit, minmax(100px , 1fr));
-    grid-gap: 30px;
+    grid-gap: 0;
     grid-auto-flow: dense;
 }
 .gallary-item{
@@ -229,7 +229,7 @@ figure{
     left:50%;
     right: 50%;
     transform: translatex(-50%);
-    background-color: rgba(255, 255, 255, 0.616);
+    background-color: rgba(27, 24, 221, 0.616);
     width: 80%;
     display: flex;
     justify-content: space-between;
@@ -250,9 +250,41 @@ figure{
     opacity: 1;
 }
 .g-text h3{
-    color:var(--primary-color);
     font-size:1.2em;
+    color:var(--white-color);
+}
+.g-text p{
+    color:var(--white-color);
 }
 .icon{
     font-size: 1.6em;
+    color:var(--white-color);
+}
+/* ======= work section ============ */
+.work-items{
+    display: flex;
+    justify-content:space-between;
+}
+.work-item{
+    text-align:center;
+    background-color: rgba(27, 24, 221, 0.616);
+    box-shadow: 0 0 20px rgba(27, 24, 221, 0.616);
+    border-radius: 10px;
+    color: var(--white-color);
+    flex-basis: 30%;
+    padding: 20px;
+    transition: 1s ease;
+}
+.work-item i{
+    font-size: 3em;
+    width:60px;
+    height:60px;
+    text-align: center;
+    padding:10px;
+    margin-bottom: 20px;
+}
+.work-item:hover{
+    background-color:var(--white-color);
+    color:var(--primary-color);
+    transform: scale(1.2);
 }

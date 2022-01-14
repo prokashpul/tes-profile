@@ -77,4 +77,19 @@
         background-color: rgba(255, 255, 255, 0.616);
         opacity: 1;
     }
+
+    /*=============== work section ========= */
+    .work .container{
+        margin: 0 10px 30px;
+    }
+    .work-items{
+        flex-direction: column;
+    }
+    .work-item{
+        margin: 20px 10px;
+    }
+    .work-item:hover{
+        transform: scale(1);
+    }
+    
 }
