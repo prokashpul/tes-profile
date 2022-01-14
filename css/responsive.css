@@ -4,15 +4,23 @@
     }
   
     .container{
-        max-width:834px;
-        margin:0  120px 100px;
+        max-width:100%;
+        margin:0  30px 100px;
     }
     .proects  h2{
         width:98%;
         margin: 0 auto 1.2em;
     }
+    .gallery-title h2 {
+        width:98%;
+        margin: 0 auto 1.2em;
+    }
     .profile img{
         width: 100%;
+    }
+    .careers{
+        max-width:100%;
+        margin:0  30px 100px;
     }
 }
 
@@ -77,6 +85,17 @@
     .gallary-item .image-details{
         background-color: rgba(255, 255, 255, 0.616);
         opacity: 1;
+    }
+    .g-text h3{
+        font-size:1.2em;
+        color:var(--primary-color);
+    }
+    .g-text p{
+        color:var(--primary-color);
+    }
+    .icon{
+        font-size: 1.6em;
+        color:var(--primary-color);
     }
 
     /*=============== work section ========= */
