@@ -167,3 +167,27 @@ hr{
     color: var(--white-color);
     padding-left: .8em;
 }
+/* =================trusted section==================== */
+.trusted{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    width: 100%;
+    margin-bottom:150px;
+
+}
+.trusted h3{
+    margin: 20px 40px 10px;
+    color: #B4A6A2;
+}
+.trusted-item{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 25px 0;
+}
+.trusted-item img{
+    width: 157px;
+    height:37px;
+    margin: 20px;
+}
