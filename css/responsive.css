@@ -2,9 +2,10 @@
     html{
         font-size:80%;
     }
+  
     .container{
-        max-width:100%;
-        margin:0 60px 100px;
+        max-width:834px;
+        margin:0  120px 100px;
     }
     .proects  h2{
         width:98%;
@@ -91,5 +92,9 @@
     .work-item:hover{
         transform: scale(1);
     }
-    
+    /* =================careers area=========== */
+    .careers{
+        max-width:100%;
+        margin: 0 10px 50px;
+    }
 }
